@@ -1,6 +1,6 @@
 #include "main.h"
 using namespace pros;
-Motor intake(19,E_MOTOR_GEARSET_06,false,E_MOTOR_ENCODER_DEGREES);
+Motor intake(18,E_MOTOR_GEARSET_06,false,E_MOTOR_ENCODER_DEGREES);
 Motor unwind(8,E_MOTOR_GEARSET_06,false,E_MOTOR_ENCODER_DEGREES);
 
 /*
