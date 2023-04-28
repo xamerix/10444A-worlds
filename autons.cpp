@@ -85,7 +85,7 @@ void slingshotControlA(void * param) {
           intakeBool = true;
           slingRelease.set_value(false);
           delay(500);
-          pullback.move_relative(4850,600);
+          pullback.move_relative(800,600);
           pressed = 2;
           unwindComplete = true;
           pulling = false;
